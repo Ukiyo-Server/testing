@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Testing</title>
+</head>
+<body>
+    <h1>Service Testing</h1>
+    <p>Test your structured data for services, ratings, and reviews.</p>
+    
+    <!-- Add structured data markup here -->
+    <!-- Add structured data markup here -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "Service",
+        "name": "Example Service",
+        "description": "This is an example service.",
+        "provider": {
+            "@type": "Organization",
+            "name": "Example Provider"
+        },
+        "areaServed": {
+            "@type": "AdministrativeArea",
+            "name": "Example City"
+        },
+        "serviceType": "Example Service Type",
+        "serviceOutput": {
+            "@type": "Product",
+            "name": "Example Product",
+            "brand": {
+                "@type": "Brand",
+                "name": "Example Brand"
+            }
+        },
+        "serviceAudience": {
+            "@type": "Audience",
+            "name": "Example Audience"
+        },
+        "serviceRating": {
+            "@type": "Rating",
+            "ratingValue": "4.5",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": "100"
+        },
+        "review": {
+            "@type": "Review",
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.5",
+                "bestRating": "5",
+                "worstRating": "1"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Example Author"
+            },
+            "datePublished": "2022-01-01",
+            "reviewBody": "This is an example review."
+        }
+    }
+    </script>
+</body>
+</html>
